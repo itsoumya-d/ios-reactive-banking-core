@@ -1,3 +1,4 @@
+#if canImport(ObjectiveC)
 import Foundation
 
 // MARK: - Objective-C Bridge Adapters
@@ -99,3 +100,4 @@ extension Array where Element == ObjCTransactionBridge {
         map { $0.toSwiftTransaction() }
     }
 }
+#endif

@@ -379,6 +379,7 @@ final class OfflineQueueTests: XCTestCase {
 
 // MARK: - ObjC Bridge Tests
 
+#if canImport(ObjectiveC)
 final class ObjCBridgeTests: XCTestCase {
     func testAccountBridgeRoundTrip() {
         let account = Account(
@@ -428,6 +429,7 @@ final class ObjCBridgeTests: XCTestCase {
         XCTAssertEqual(back[1].id, "2")
     }
 }
+#endif
 
 // MARK: - In-Memory Cache Tests
 
