@@ -1,0 +1,12 @@
+{
+  "name": "ios-reactive-banking-core",
+  "version": "1.0.0",
+  "description": "Swift 6 reactive mobile banking domain architecture",
+  "scripts": {
+    "test": "swift test",
+    "build": "swift build",
+    "lint": "swiftlint"
+  },
+  "author": "Soumya Debnath",
+  "license": "MIT"
+}
